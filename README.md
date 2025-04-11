@@ -28,8 +28,8 @@
 
 ### Связаться со мной 📫
 
-- Мой VK [https://vk.com/sergeyoshepkov]
-- Мой tg [https://t.me/mmobik]
+- Мой VK: [https://vk.com/sergeyoshepkov]
+- Мой tg: [https://t.me/mmobik]
 - Моя почта: Oshchepkov.Sergey@urfu.me
 
 ### Дополнительно ⚡
