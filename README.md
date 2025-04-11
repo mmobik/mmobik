@@ -23,8 +23,7 @@
 
 ### Связаться со мной
 
-- 📫 Как связаться: 
-- [Мой ВK](https://vk.com/sergeyoshepkov)
+- 📫 Как связаться: [Мой ВK](https://vk.com/sergeyoshepkov)
 
 ### Дополнительно
 
