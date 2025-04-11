@@ -28,9 +28,9 @@
 
 ### Связаться со мной 📫
 
-- Мой VK: [Мой VK](https://vk.com/sergeyoshepkov)
-- Мой Telegram: [Мой Telegram](https://t.me/mmobik)
-- Моя почта: [email]Oshchepkov.Sergey@urfu.me
+- [Мой VK](https://vk.com/sergeyoshepkov)
+- [Мой Telegram](https://t.me/mmobik)
+- [email](Oshchepkov.Sergey@urfu.me)
 
 ### Дополнительно ⚡
 
