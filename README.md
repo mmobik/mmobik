@@ -6,10 +6,10 @@
 </p>
 
 <p align="center">
-  <a href="https://t.me/mmobik">Telegram</a> •
-  <a href="mailto:hak189145@gmail.com">Gmail</a> •
-  <a href="https://github.com/mmobik">GitHub</a> •
-  <a href="https://vk.com/sergeyoshepkov">VK</a>
+  <a href="https://t.me/mmobik"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
+  <a href="https://vk.com/sergeyoshepkov"><img src="https://img.shields.io/badge/VK-4680C2?style=for-the-badge&logo=vk&logoColor=white" /></a>
+  <a href="mailto:hak189145@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/mmobik"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
 ---
