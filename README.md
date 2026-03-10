@@ -64,8 +64,8 @@
 
 ---
 
-#### ⚔️ **Sword_Fall** — *Full-stack Game Developer*  
-[🔗 GitHub](https://github.com/mmobik/Sword_Fall) • *Стек: Python, Pygame, JSON, ООП, паттерны проектирования*
+#### ⚔️ [**Sword_Fall**](https://github.com/mmobik/Sword_Fall) — *Full-stack Game Developer*  
+*Стек: Python, Pygame, JSON, ООП, паттерны проектирования*
 
 2D RPG-игра с модульной архитектурой и системами, приближенными к коммерческой разработке.
 
@@ -87,8 +87,8 @@
 
 ---
 
-#### 🥐 **Pastry_Bot** — *Telegram-бот для автоматизации заказов*  
-[🔗 GitHub](https://github.com/mmobik/Pastry_Bot) • *Стек: Python, Aiogram, JSON*
+#### 🥐 [**Pastry_Bot**](https://github.com/mmobik/Pastry_Bot) — *Telegram-бот для автоматизации заказов*  
+*Стек: Python, Aiogram, JSON*
 
 - Автоматизировал процесс приема заказов для кондитеров
 - Реализовал сбор информации (дата, время, описание, контакты) и пересылку администратору
@@ -97,7 +97,7 @@
 ---
 
 #### 🧠 **Сервис диагностики меланомы** — *Исследовательский проект*  
-[🔗 GitHub](https://github.com/mmobik/melanoma_detection) • *Стек: Python, PyTorch, Pandas*
+*Стек: Python, PyTorch, Pandas*
 
 - Экспериментировал со сверточными нейронными сетями (CNN) для анализа изображений родинок
 - Столкнулся с ограничениями малого датасета и проблемой точности
