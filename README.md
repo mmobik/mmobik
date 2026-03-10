@@ -7,9 +7,9 @@
 
 <p align="center">
   <a href="https://t.me/mmobik">Telegram</a> •
-  <a href="mailto:hak189145@gmail.com">Email</a> •
+  <a href="mailto:hak189145@gmail.com">Gmail</a> •
   <a href="https://github.com/mmobik">GitHub</a> •
-  <a href="mailto:Oshchepkov.Sergey@urfu.me">УрФУ Почта</a>
+  <a href="https://vk.com/sergeyoshepkov">VK</a>
 </p>
 
 ---
