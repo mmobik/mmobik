@@ -25,12 +25,12 @@
 
 | Категория | Технологии |
 |-----------|------------|
-| **Языки** | Python (продвинутый), C++ (начальный) |
+| **Языки** | Python (продвинутый), JavaScript (базовый) |
 | **ML/DL** | PyTorch, Pandas, NumPy, PEFT (LoRA), BitsAndBytes |
-| **NLP/RAG**| RAG, Qdrant, paraphrase-multilingual-MiniLM-L12-v2 |
-| **Backend** | FastAPI, Docker, SQLAlchemy, PostgreSQL |
-| **DevOps** | Git, Docker, JSON (сериализация) |
-| **GameDev** | Pygame (архитектура игр, системы состояний) |
+| **NLP/RAG** | RAG, Qdrant, sentence-transformers |
+| **Backend** | FastAPI, Docker, SQLAlchemy, PostgreSQL, Redis, n8n |
+| **DevOps** | Git, Docker, Kubernetes, JSON (сериализация) |
+| **GameDev** | Pygame (собственный игровой движок-обертка) |
 
 </div>
 
