@@ -1,0 +1,30 @@
+<svg width="854" height="150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 854 150">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00c6ff"/>
+      <stop offset="100%" stop-color="#0072ff"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="854" height="150" fill="url(#grad)" rx="0"/>
+  
+  <g transform="translate(427, 75)">
+    <path fill="rgba(255,255,255,0.3)" d="M-400,0 L-400,70 Q-186.5,110 0,80 T400,105 L400,0 Z">
+      <animate attributeName="d" dur="20s" repeatCount="indefinite" 
+        values="M-400,0 L-400,70 Q-186.5,110 0,80 T400,105 L400,0 Z;
+                M-400,0 L-400,95 Q-186.5,110 0,90 T400,80 L400,0 Z;
+                M-400,0 L-400,115 Q-186.5,85 0,115 T400,80 L400,0 Z;
+                M-400,0 L-400,70 Q-186.5,110 0,80 T400,105 L400,0 Z"/>
+    </path>
+    <path fill="rgba(255,255,255,0.3)" d="M-400,0 L-400,85 Q-186.5,130 0,100 T400,110 L400,0 Z">
+      <animate attributeName="d" dur="20s" repeatCount="indefinite" begin="-10s"
+        values="M-400,0 L-400,85 Q-186.5,130 0,100 T400,110 L400,0 Z;
+                M-400,0 L-400,100 Q-186.5,70 0,70 T400,90 L400,0 Z;
+                M-400,0 L-400,95 Q-186.5,75 0,100 T400,115 L400,0 Z;
+                M-400,0 L-400,85 Q-186.5,130 0,100 T400,110 L400,0 Z"/>
+    </path>
+  </g>
+  
+  <text x="50%" y="45%" text-anchor="middle" fill="white" font-size="48" font-weight="bold" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">Sergey</text>
+  <text x="50%" y="65%" text-anchor="middle" fill="white" font-size="20" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">Oshchepkov Sergey</text>
+</svg>
