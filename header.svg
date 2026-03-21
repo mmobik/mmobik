@@ -5,17 +5,18 @@
   xmlns:xlink="http://www.w3.org/1999/xlink"
   style="z-index:1;position:relative"
   viewBox="0 0 854 150"
+  xml:lang="ru"
 >
   <style>
     .text { 
       font-size: 50px; 
       font-weight: 700; 
-      font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  
+      font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Microsoft YaHei', sans-serif;
     } 
     .desc { 
       font-size: 20px; 
       font-weight: 500; 
-      font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  
+      font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Microsoft YaHei', sans-serif;
     } 
     .text, .desc { 
       animation: fadeIn 1.2s ease-in-out forwards;  
@@ -59,5 +60,5 @@
     </path>
   </g>
   
-  <text text-anchor="middle" alignment-baseline="middle" x="50%" y="35%" class="text" style="fill:#fff;" stroke="none" stroke-width="1">Ощепков Сергей</text>
+  <text text-anchor="middle" alignment-baseline="middle" x="50%" y="35%" class="text" fill="white">Ощепков Сергей</text>
 </svg>
