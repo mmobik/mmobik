@@ -8,27 +8,37 @@
   xml:lang="ru"
 >
   <style>
-    .text { 
-      font-size: 50px; 
-      font-weight: 700; 
+    .wave-text {
+      font-size: 50px;
+      font-weight: 700;
       font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Microsoft YaHei', sans-serif;
-      letter-spacing: normal;
-    } 
-    .text { 
-      animation: fadeIn 1.2s ease-in-out forwards;  
-    } 
-    @keyframes fadeIn { 
-      from { opacity: 0; } 
-      to { opacity: 1; } 
+      fill: white;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.3);
     }
   </style>
+  
   <defs>
     <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00c6ff"/>
       <stop offset="100%" stop-color="#0072ff"/>
     </linearGradient>
+    
+    <!-- Маска для эффекта печатания -->
+    <mask id="typing-mask">
+      <rect x="0" y="0" width="854" height="150" fill="white">
+        <animate
+          attributeName="width"
+          from="0"
+          to="854"
+          dur="2s"
+          fill="freeze"
+          calcMode="linear"
+        />
+      </rect>
+    </mask>
   </defs>
   
+  <!-- ФОНОВЫЕ ВОЛНЫ (две волны с разными фазами) -->
   <g transform="translate(427, 75) scale(1, 1) translate(-427, -75)">
     <path d="M0 0L 0 70Q 213.5 110 427 80T 854 105L 854 0 Z" fill="url(#linear)" opacity="0.4">
       <animate
@@ -56,5 +66,10 @@
     </path>
   </g>
   
-  <text text-anchor="middle" alignment-baseline="middle" x="50%" y="35%" class="text" fill="white">Ощепков Сергей</text>
+  <!-- ТЕКСТ С ЭФФЕКТОМ ПЕЧАТАНИЯ (без курсора) -->
+  <g mask="url(#typing-mask)">
+    <text x="50%" y="35%" text-anchor="middle" class="wave-text">
+      Ощепков Сергей
+    </text>
+  </g>
 </svg>
