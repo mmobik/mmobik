@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="header.svg" width="854" height="150" alt="Sergey">
+  <img src="header.svg" width="854" height="150" alt="Ощепков Сергей">
 </p>
 
 ## 👤 О себе
