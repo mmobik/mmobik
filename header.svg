@@ -12,25 +12,11 @@
       font-size: 50px; 
       font-weight: 700; 
       font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Microsoft YaHei', sans-serif;
-    } 
-    .text { 
-      animation: fadeIn 1.2s ease-in-out forwards;  
+      letter-spacing: -2px;
     } 
     @keyframes fadeIn { 
       from { opacity: 0; } 
       to { opacity: 1; } 
-    }
-    @keyframes waveLetter {
-      0% { transform: translateY(0px) rotate(0deg); }
-      25% { transform: translateY(-6px) rotate(-2deg); }
-      50% { transform: translateY(0px) rotate(0deg); }
-      75% { transform: translateY(6px) rotate(2deg); }
-      100% { transform: translateY(0px) rotate(0deg); }
-    }
-    .wave-letter {
-      display: inline-block;
-      animation: waveLetter 1.2s ease-in-out infinite;
-      animation-delay: calc(var(--i) * 0.08s);
     }
   </style>
   <defs>
@@ -69,20 +55,30 @@
   
   <text text-anchor="middle" alignment-baseline="middle" x="50%" y="35%" class="text" fill="white">
     <tspan x="50%" dy="0" text-anchor="middle">
-      <tspan class="wave-letter" style="--i: 0">О</tspan>
-      <tspan class="wave-letter" style="--i: 1">щ</tspan>
-      <tspan class="wave-letter" style="--i: 2">е</tspan>
-      <tspan class="wave-letter" style="--i: 3">п</tspan>
-      <tspan class="wave-letter" style="--i: 4">к</tspan>
-      <tspan class="wave-letter" style="--i: 5">о</tspan>
-      <tspan class="wave-letter" style="--i: 6">в</tspan>
-      <tspan class="wave-letter" style="--i: 7"> </tspan>
-      <tspan class="wave-letter" style="--i: 8">С</tspan>
-      <tspan class="wave-letter" style="--i: 9">е</tspan>
-      <tspan class="wave-letter" style="--i: 10">р</tspan>
-      <tspan class="wave-letter" style="--i: 11">г</tspan>
-      <tspan class="wave-letter" style="--i: 12">е</tspan>
-      <tspan class="wave-letter" style="--i: 13">й</tspan>
+      <tspan style="display: inline-block; animation: waveRotate 2s ease-in-out infinite; animation-delay: 0s; transform-origin: center center;">О</tspan>
+      <tspan style="display: inline-block; animation: waveRotate 2s ease-in-out infinite; animation-delay: 0.08s; transform-origin: center center;">щ</tspan>
+      <tspan style="display: inline-block; animation: waveRotate 2s ease-in-out infinite; animation-delay: 0.16s; transform-origin: center center;">е</tspan>
+      <tspan style="display: inline-block; animation: waveRotate 2s ease-in-out infinite; animation-delay: 0.24s; transform-origin: center center;">п</tspan>
+      <tspan style="display: inline-block; animation: waveRotate 2s ease-in-out infinite; animation-delay: 0.32s; transform-origin: center center;">к</tspan>
+      <tspan style="display: inline-block; animation: waveRotate 2s ease-in-out infinite; animation-delay: 0.40s; transform-origin: center center;">о</tspan>
+      <tspan style="display: inline-block; animation: waveRotate 2s ease-in-out infinite; animation-delay: 0.48s; transform-origin: center center;">в</tspan>
+      <tspan style="display: inline-block; width: 8px;"> </tspan>
+      <tspan style="display: inline-block; animation: waveRotate 2s ease-in-out infinite; animation-delay: 0.56s; transform-origin: center center;">С</tspan>
+      <tspan style="display: inline-block; animation: waveRotate 2s ease-in-out infinite; animation-delay: 0.64s; transform-origin: center center;">е</tspan>
+      <tspan style="display: inline-block; animation: waveRotate 2s ease-in-out infinite; animation-delay: 0.72s; transform-origin: center center;">р</tspan>
+      <tspan style="display: inline-block; animation: waveRotate 2s ease-in-out infinite; animation-delay: 0.80s; transform-origin: center center;">г</tspan>
+      <tspan style="display: inline-block; animation: waveRotate 2s ease-in-out infinite; animation-delay: 0.88s; transform-origin: center center;">е</tspan>
+      <tspan style="display: inline-block; animation: waveRotate 2s ease-in-out infinite; animation-delay: 0.96s; transform-origin: center center;">й</tspan>
     </tspan>
   </text>
+  
+  <style>
+    @keyframes waveRotate {
+      0% { transform: rotate(0deg) translateY(0px); }
+      25% { transform: rotate(2deg) translateY(-3px); }
+      50% { transform: rotate(0deg) translateY(0px); }
+      75% { transform: rotate(-2deg) translateY(3px); }
+      100% { transform: rotate(0deg) translateY(0px); }
+    }
+  </style>
 </svg>
