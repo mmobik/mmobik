@@ -13,16 +13,24 @@
       font-weight: 700; 
       font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Microsoft YaHei', sans-serif;
     } 
-    @keyframes waveMove {
-      0% { transform: translateY(0px); }
-      25% { transform: translateY(-3px); }
-      50% { transform: translateY(0px); }
-      75% { transform: translateY(3px); }
-      100% { transform: translateY(0px); }
+    .text { 
+      animation: fadeIn 1.2s ease-in-out forwards;  
+    } 
+    @keyframes fadeIn { 
+      from { opacity: 0; } 
+      to { opacity: 1; } 
+    }
+    @keyframes waveLetter {
+      0% { transform: translateY(0px) rotate(0deg); }
+      25% { transform: translateY(-6px) rotate(-2deg); }
+      50% { transform: translateY(0px) rotate(0deg); }
+      75% { transform: translateY(6px) rotate(2deg); }
+      100% { transform: translateY(0px) rotate(0deg); }
     }
     .wave-letter {
       display: inline-block;
-      animation: waveMove 2s ease-in-out infinite;
+      animation: waveLetter 1.2s ease-in-out infinite;
+      animation-delay: calc(var(--i) * 0.08s);
     }
   </style>
   <defs>
@@ -59,29 +67,22 @@
     </path>
   </g>
   
-  <text x="50%" y="45%" text-anchor="middle" class="text" fill="white">
-    <tspan>
-      <animate
-        attributeName="text"
-        dur="4s"
-        repeatCount="indefinite"
-        values="О;Ощ;Още;Ощеп;Ощепк;Ощепко;Ощепков;Ощепков ;Ощепков С;Ощепков Се;Ощепков Сер;Ощепков Серг;Ощепков Серге;Ощепков Сергей;Ощепков Сергей;Ощепков Сергей;Ощепков Сергей;Ощепков Сергей"
-        calcMode="discrete"
-      />
+  <text text-anchor="middle" alignment-baseline="middle" x="50%" y="35%" class="text" fill="white">
+    <tspan x="50%" dy="0" text-anchor="middle">
+      <tspan class="wave-letter" style="--i: 0">О</tspan>
+      <tspan class="wave-letter" style="--i: 1">щ</tspan>
+      <tspan class="wave-letter" style="--i: 2">е</tspan>
+      <tspan class="wave-letter" style="--i: 3">п</tspan>
+      <tspan class="wave-letter" style="--i: 4">к</tspan>
+      <tspan class="wave-letter" style="--i: 5">о</tspan>
+      <tspan class="wave-letter" style="--i: 6">в</tspan>
+      <tspan class="wave-letter" style="--i: 7"> </tspan>
+      <tspan class="wave-letter" style="--i: 8">С</tspan>
+      <tspan class="wave-letter" style="--i: 9">е</tspan>
+      <tspan class="wave-letter" style="--i: 10">р</tspan>
+      <tspan class="wave-letter" style="--i: 11">г</tspan>
+      <tspan class="wave-letter" style="--i: 12">е</tspan>
+      <tspan class="wave-letter" style="--i: 13">й</tspan>
     </tspan>
-    <animate
-      attributeName="opacity"
-      values="1;1;1;1;1;1;1;1;1;1;1;1;1;1;0.8;0.6;0.4;0.2;1"
-      dur="4s"
-      repeatCount="indefinite"
-      begin="0s"
-    />
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      values="0,0; 0,-2; 0,0; 0,2; 0,0"
-      dur="3s"
-      repeatCount="indefinite"
-    />
   </text>
 </svg>
