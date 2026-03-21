@@ -13,26 +13,16 @@
       font-weight: 700; 
       font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Microsoft YaHei', sans-serif;
     } 
-    .desc { 
-      font-size: 20px; 
-      font-weight: 500; 
-      font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Microsoft YaHei', sans-serif;
-    } 
-    @keyframes fadeIn { 
-      from { opacity: 0; } 
-      to { opacity: 1; } 
-    } 
-    @keyframes typewriter {
-      0% { opacity: 0; transform: scaleX(0); }
-      10% { opacity: 1; transform: scaleX(1); }
-      90% { opacity: 1; transform: scaleX(1); }
-      100% { opacity: 0; transform: scaleX(1); }
+    @keyframes waveMove {
+      0% { transform: translateY(0px); }
+      25% { transform: translateY(-3px); }
+      50% { transform: translateY(0px); }
+      75% { transform: translateY(3px); }
+      100% { transform: translateY(0px); }
     }
-    .type-text {
-      animation: typewriter 4s steps(20) infinite;
-      white-space: nowrap;
-      overflow: hidden;
+    .wave-letter {
       display: inline-block;
+      animation: waveMove 2s ease-in-out infinite;
     }
   </style>
   <defs>
@@ -69,7 +59,7 @@
     </path>
   </g>
   
-  <text text-anchor="middle" alignment-baseline="middle" x="50%" y="35%" class="text" fill="white">
+  <text x="50%" y="45%" text-anchor="middle" class="text" fill="white">
     <tspan>
       <animate
         attributeName="text"
@@ -85,6 +75,13 @@
       dur="4s"
       repeatCount="indefinite"
       begin="0s"
+    />
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0,0; 0,-2; 0,0; 0,2; 0,0"
+      dur="3s"
+      repeatCount="indefinite"
     />
   </text>
 </svg>
