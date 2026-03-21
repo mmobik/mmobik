@@ -18,13 +18,22 @@
       font-weight: 500; 
       font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Microsoft YaHei', sans-serif;
     } 
-    .text, .desc { 
-      animation: fadeIn 1.2s ease-in-out forwards;  
-    } 
     @keyframes fadeIn { 
       from { opacity: 0; } 
       to { opacity: 1; } 
     } 
+    @keyframes typewriter {
+      0% { opacity: 0; transform: scaleX(0); }
+      10% { opacity: 1; transform: scaleX(1); }
+      90% { opacity: 1; transform: scaleX(1); }
+      100% { opacity: 0; transform: scaleX(1); }
+    }
+    .type-text {
+      animation: typewriter 4s steps(20) infinite;
+      white-space: nowrap;
+      overflow: hidden;
+      display: inline-block;
+    }
   </style>
   <defs>
     <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -60,5 +69,22 @@
     </path>
   </g>
   
-  <text text-anchor="middle" alignment-baseline="middle" x="50%" y="35%" class="text" fill="white">Ощепков Сергей</text>
+  <text text-anchor="middle" alignment-baseline="middle" x="50%" y="35%" class="text" fill="white">
+    <tspan>
+      <animate
+        attributeName="text"
+        dur="4s"
+        repeatCount="indefinite"
+        values="О;Ощ;Още;Ощеп;Ощепк;Ощепко;Ощепков;Ощепков ;Ощепков С;Ощепков Се;Ощепков Сер;Ощепков Серг;Ощепков Серге;Ощепков Сергей;Ощепков Сергей;Ощепков Сергей;Ощепков Сергей;Ощепков Сергей"
+        calcMode="discrete"
+      />
+    </tspan>
+    <animate
+      attributeName="opacity"
+      values="1;1;1;1;1;1;1;1;1;1;1;1;1;1;0.8;0.6;0.4;0.2;1"
+      dur="4s"
+      repeatCount="indefinite"
+      begin="0s"
+    />
+  </text>
 </svg>
