@@ -1,18 +1,25 @@
-<!-- Заголовок с минималистичным дизайном -->
-<h1 align="center">Ощепков Сергей Алексеевич</h1>
 <p align="center">
-  <b>Стажер / Junior ML-инженер</b><br>
+  <img src="header.svg" width="854" height="150" alt="Sergey">
+</p>
+
+<h1 align="center">Ощепков Сергей Алексеевич</h1>
+
+<p align="center">
+  <b>Junior ML Engineer / AI Developer</b><br>
   Екатеринбург, Россия
 </p>
 
 <p align="center">
-  <a href="https://t.me/mmobik"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
-  <a href="https://vk.com/sergeyoshepkov"><img src="https://img.shields.io/badge/VK-4680C2?style=for-the-badge&logo=vk&logoColor=white" /></a>
-  <a href="mailto:hak189145@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/mmobik"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://t.me/mmobik"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white" /></a>
+  <a href="https://vk.com/sergeyoshepkov"><img src="https://img.shields.io/badge/VK-4680C2?style=flat-square&logo=vk&logoColor=white" /></a>
+  <a href="mailto:hak189145@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/mmobik"><img src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white" /></a>
 </p>
 
 ---
+
+## 👤 О себе
+...
 
 ## О себе
 Студент 2 курса УрФУ, направление «Прикладная информатика: Прикладной искусственный интеллект».  
