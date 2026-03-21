@@ -13,54 +13,14 @@
 
 | Категория | Технологии |
 |-----------|------------|
-| **Языки** | Python (продвинутый), JavaScript (базовый) |
-| **ML/DL** | PyTorch, Pandas, NumPy, PEFT (LoRA), BitsAndBytes |
-| **NLP/RAG** | RAG, Qdrant, sentence-transformers |
-| **Backend** | FastAPI, Docker, SQLAlchemy, PostgreSQL, Redis, n8n |
-| **DevOps** | Git, Docker, Kubernetes, JSON (сериализация) |
-| **GameDev** | Pygame (собственный игровой движок-обертка) |
+| **Языки** | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/> |
+| **ML/DL** | <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/PEFT-1C3C3C?style=flat-square&logo=huggingface&logoColor=white"/> <img src="https://img.shields.io/badge/BitsAndBytes-000000?style=flat-square&logo=python&logoColor=white"/> |
+| **NLP/RAG** | <img src="https://img.shields.io/badge/RAG-00C6FF?style=flat-square&logo=ai&logoColor=white"/> <img src="https://img.shields.io/badge/Qdrant-1A1A1A?style=flat-square&logo=qdrant&logoColor=white"/> <img src="https://img.shields.io/badge/sentence--transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/> |
+| **Backend** | <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/SQLAlchemy-000000?style=flat-square&logo=sqlalchemy&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/> <img src="https://img.shields.io/badge/n8n-1A1A1A?style=flat-square&logo=n8n&logoColor=white"/> |
+| **DevOps** | <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/> <img src="https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white"/> |
+| **GameDev** | <img src="https://img.shields.io/badge/Pygame-000000?style=flat-square&logo=pygame&logoColor=white"/> |
 
 </div>
-<div align="center">
-  <div style="overflow: hidden; white-space: nowrap; width: 100%; padding: 10px 0;">
-    <div style="display: inline-block; animation: scrollTech 25s linear infinite;">
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/Qdrant-1A1A1A?style=flat-square&logo=qdrant&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/Pygame-000000?style=flat-square&logo=pygame&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" style="margin: 0 8px;">
-    </div>
-    <div style="display: inline-block; animation: scrollTech 25s linear infinite;">
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/Qdrant-1A1A1A?style=flat-square&logo=qdrant&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/Pygame-000000?style=flat-square&logo=pygame&logoColor=white" style="margin: 0 8px;">
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" style="margin: 0 8px;">
-    </div>
-  </div>
-</div>
-
-<style>
-  @keyframes scrollTech {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-100%); }
-  }
-</style>
----
 
 ## Опыт проектов
 
