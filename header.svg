@@ -1,30 +1,63 @@
-<svg width="854" height="150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 854 150">
+<svg
+  width="854"
+  height="150"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  style="z-index:1;position:relative"
+  viewBox="0 0 854 150"
+>
+  <style>
+    .text { 
+      font-size: 50px; 
+      font-weight: 700; 
+      font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  
+    } 
+    .desc { 
+      font-size: 20px; 
+      font-weight: 500; 
+      font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;  
+    } 
+    .text, .desc { 
+      animation: fadeIn 1.2s ease-in-out forwards;  
+    } 
+    @keyframes fadeIn { 
+      from { opacity: 0; } 
+      to { opacity: 1; } 
+    } 
+  </style>
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00c6ff"/>
       <stop offset="100%" stop-color="#0072ff"/>
     </linearGradient>
   </defs>
   
-  <rect width="854" height="150" fill="url(#grad)" rx="0"/>
-  
-  <g transform="translate(427, 75)">
-    <path fill="rgba(255,255,255,0.3)" d="M-400,0 L-400,70 Q-186.5,110 0,80 T400,105 L400,0 Z">
-      <animate attributeName="d" dur="20s" repeatCount="indefinite" 
-        values="M-400,0 L-400,70 Q-186.5,110 0,80 T400,105 L400,0 Z;
-                M-400,0 L-400,95 Q-186.5,110 0,90 T400,80 L400,0 Z;
-                M-400,0 L-400,115 Q-186.5,85 0,115 T400,80 L400,0 Z;
-                M-400,0 L-400,70 Q-186.5,110 0,80 T400,105 L400,0 Z"/>
+  <g transform="translate(427, 75) scale(1, 1) translate(-427, -75)">
+    <path d="M0 0L 0 70Q 213.5 110 427 80T 854 105L 854 0 Z" fill="url(#linear)" opacity="0.4">
+      <animate
+        attributeName="d"
+        dur="20s"
+        repeatCount="indefinite"
+        keyTimes="0;0.333;0.667;1"
+        calcmod="spline"
+        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
+        begin="0s"
+        values="M0 0L 0 70Q 213.5 110 427 80T 854 105L 854 0 Z;M0 0L 0 95Q 213.5 110 427 90T 854 80L 854 0 Z;M0 0L 0 115Q 213.5 85 427 115T 854 80L 854 0 Z;M0 0L 0 70Q 213.5 110 427 80T 854 105L 854 0 Z">
+      </animate>
     </path>
-    <path fill="rgba(255,255,255,0.3)" d="M-400,0 L-400,85 Q-186.5,130 0,100 T400,110 L400,0 Z">
-      <animate attributeName="d" dur="20s" repeatCount="indefinite" begin="-10s"
-        values="M-400,0 L-400,85 Q-186.5,130 0,100 T400,110 L400,0 Z;
-                M-400,0 L-400,100 Q-186.5,70 0,70 T400,90 L400,0 Z;
-                M-400,0 L-400,95 Q-186.5,75 0,100 T400,115 L400,0 Z;
-                M-400,0 L-400,85 Q-186.5,130 0,100 T400,110 L400,0 Z"/>
+    <path d="M0 0L 0 85Q 213.5 130 427 100T 854 110L 854 0 Z" fill="url(#linear)" opacity="0.4">
+      <animate
+        attributeName="d"
+        dur="20s"
+        repeatCount="indefinite"
+        keyTimes="0;0.333;0.667;1"
+        calcmod="spline"
+        keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
+        begin="-10s"
+        values="M0 0L 0 85Q 213.5 130 427 100T 854 110L 854 0 Z;M0 0L 0 100Q 213.5 70 427 70T 854 90L 854 0 Z;M0 0L 0 95Q 213.5 75 427 100T 854 115L 854 0 Z;M0 0L 0 85Q 213.5 130 427 100T 854 110L 854 0 Z">
+      </animate>
     </path>
   </g>
   
-  <text x="50%" y="45%" text-anchor="middle" fill="white" font-size="48" font-weight="bold" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">Sergey</text>
-  <text x="50%" y="65%" text-anchor="middle" fill="white" font-size="20" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">Oshchepkov Sergey</text>
+  <text text-anchor="middle" alignment-baseline="middle" x="50%" y="35%" class="text" style="fill:#fff;" stroke="none" stroke-width="1">Sergey</text>
 </svg>
